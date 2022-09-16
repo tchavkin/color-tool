@@ -7,8 +7,40 @@
 body {
     background-color: black;
 }
+h1 {
+    font-size: 6vh;
+    color: aqua;
+    text-align: center;
+    margin-top: 1vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+.main-container {
+    background-color: rgb(20, 10, 87);
+    margin: 10vh;
+}
 
-.test {
-    background-color: aqua;
-    justify-content: center;
+.hex {
+    padding-left: 28vh;
+}
+
+.toggle {
+    padding-top: 6vh;
+    padding-left: 28vh;
+}
+
+.percent-bar {
+    padding-top: 6vh;
+    padding-left: 28vh;
+}
+
+.original-color-box {
+    padding-top: 6vh;
+    padding-left: 28vh;
+}
+
+.new-color-box {
+    padding-top: 6vh;
+    padding-left: 28vh;
+    padding-bottom: 10vh;
 }
