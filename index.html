@@ -7,13 +7,28 @@
     <title>Color Tool</title>
 </head>
 <body>
-    <div class="main-container">
+    <div class="container">
         <h1>Lighten/Darken Tool</h1>
-        <div class="hex">
-            <label for="hex-input">Color(HEX)</label><br>
-            <input class="hex-input" type="text" name="hex-input">
+        <div class="hexComponent">
+            <label for="hex">Color (HEX)</label><br>
+            <input name="hex" id="hexInput" type="text" placeholder="#000000">
         </div>
-        <div class="toggle">
+        <div class="sliderComponent">
+            <label for="slider" id="sliderText">0%</label>
+            <input name="slider" id="slider" class="slider" type="range" min="0" max="100" value="0"> 
+        </div>
+        <div class="inputColorComponent">
+            <p>Input Color</p>
+            <div id="inputColor" class="box"></div>
+        </div>
+        <div class="alteredColorComponent">
+            <p>Altered Color</p>
+            <div id="alteredColor" class="box"></div>
+        </div>
+        
+
+
+    <!--        <div class="toggle">
             <p>Yo3</p>
         </div>
         <div class="percent-bar">
@@ -25,6 +40,7 @@
         <div class="new-color-box">
             <p>Yo5</p>
         </div> 
+    -->
         
     </div>
 

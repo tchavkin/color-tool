@@ -1,1 +1,9 @@
-//https://www.youtube.com/watch?v=Ndo2la9hylw
+const isValidHex = (hex) => {
+    if(!hex) return false;
+
+    const strippedHex = hex.replace ('#', '');
+    return strippedHex.length === 3 || strippedHex.length === 6;
+}
+
+//Lesson 5
+
